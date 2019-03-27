@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parcial 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="todo">
+<h1 class="todo__titulo">Photoshop 1.0</h1>
+<div class="todo__editor">
+
+    <div class="todo__editor__herramienta">
+        <p>Imagen</p>
+        <input id="link" placeholder="https://...">
+        <p>Texto</p>
+        <input id="texto" placeholder="Escribe tu texto">
+        <p>Color del texto</p>
+        <input type="color" id="color">
+        <p>Tamaño de fuente</p>
+        <input id="tamano" type="range" min="10" max="100">
+        <button id="limpiar" class="todo__editor__herramienta__rojo" >Limpiar</button>
+        <button id="crear" class="todo__editor__herramienta__verde" >Crear</button>
+    </div>
+    <div id="imagen" onclick="alert('Descargando Imagen')" class="todo__editor__imagen"></div>
+</div>
+
+    </div>
+
+    <script  src="./scripts/index.js"></script>
+</body>
+</html>
